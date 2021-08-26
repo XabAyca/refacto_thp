@@ -5,6 +5,7 @@ import { Col, Mentions, Row } from 'antd/es';
 const MentionsTagsComponent = ({
 	title, type, value, setValue, usersList
 }) => {
+	
 	const onSelect = (val) => {
 		const res = val.substring(0, val.length - 1);
 		setValue(res);
